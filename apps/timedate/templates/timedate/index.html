@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Time Display</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+    .body {
+        background-color:black;
+    }
+
+    #container {
+        background-color: black;
+        width: max-content;
+        height: max-content;
+        padding:35px;
+        margin-left:150px ;
+        margin-top: 100px;
+        border-color: lightgreen;
+        border-style: solid;
+
+
+
+    }
+    
+
+    .box{
+        padding-top: 10px;
+        padding-left: 10px;
+        border-style: solid;
+        border-color: lightgreen;
+        width: 800px;
+        height: 150px;
+        text-align: center;
+        margin: 40px;
+        font-size: 45px;
+        position: static;
+        color: white;
+    }
+   
+    </style>
+</head>
+<body class='body'>
+   <div id="container">
+       <div class="box"><p>Today's date and time: {{time}}</p></div>
+       
+
+    </div>
+</body>
+</html>
